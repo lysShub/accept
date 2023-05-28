@@ -1,5 +1,5 @@
-//go:build unix
-// +build unix
+//go:build unix && linux
+// +build unix,linux
 
 package udp
 
